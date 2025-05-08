@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <title>Monitoring du Parc Informatique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="w3-theme">
+
+    <header class="w3-padding-32 w3-theme-d2 w3-center">
+        <h1>État du Parc Informatique</h1>
+    </header>
+
+    <div class="container w3-white w3-margin-top w3-card">
+        <div>
+            <p><strong>Utilisation du CPU :</strong> {{ data.cpu_usage }}%</p>
+            <p><strong>Utilisation de la RAM :</strong> {{ data.ram_usage }}%</p>
+            <p><strong>Utilisation du disque :</strong> {{ data.disk_usage }}%</p>
+        </div>
+
+        <h2 class="w3-margin-top">Graphique d'Utilisation</h2>
+        <img src="{{ chart_uri }}" alt="Graphique d'utilisation des ressources">
+    </div>
+
+    <footer class="w3-container w3-gray w3-center">
+        <p>Haytham BERHILI - AMS Administration Systèmes - Interface Web de monitoring - 2025</p>
+    </footer>
+
+</body>
+</html>
