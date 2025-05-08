@@ -100,8 +100,8 @@ def alert_email(sujet, body, destinataire):
     msg['To'] = ", ".join(destinataire)
 
     try:
-        server = smtplib.SMTP_SSL("partage.univ-avignon.fr", 465)
-        server.login("haytham.berhili@alumni.univ-avignon.fr", "Hassiaber_lebahh84000!")
+        server = smtplib.SMTP_SSL("#########", ###)
+        server.login("haytham.berhili@alumni.univ-avignon.fr", "##########")
         server.sendmail("haytham.berhili@alumni.univ-avignon.fr", destinataire, msg.as_string())
         server.quit()
         print("Email d'alerte envoyé avec succès.")
