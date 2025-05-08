@@ -1,0 +1,21 @@
+====================================================
+         Alerte Critique - Système de Monitoring
+====================================================
+
+Cher(e) Administrateur(trice),
+
+Une situation de crise a été détectée sur le serveur.
+
+Détails de l'alerte :
+----------------------------------------
+Sonde         : [SONDE]
+Valeur        : [VALEUR_ACTUELLE]
+Seuil         : [SEUIL]
+Date/Heure    : [DATE_HEURE]
+----------------------------------------
+
+Nous vous prions de vérifier immédiatement le système et de prendre les mesures nécessaires. 
+Pour plus d'informations, veuillez consulter le tableau de bord de monitoring.
+
+Cordialement,
+L'équipe de Monitoring

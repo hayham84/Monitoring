@@ -1,0 +1,4 @@
+{
+  "sonde": "cpu_usage",
+  "seuil": -1
+}
