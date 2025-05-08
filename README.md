@@ -1,5 +1,3 @@
-
-    <meta charset="UTF-8">
 # 🖥️ Interface Web de Monitoring du Parc Informatique
 
 ## 📌 Description
