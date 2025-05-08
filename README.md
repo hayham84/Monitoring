@@ -79,6 +79,5 @@ Ensuite, accéder à l'application via votre navigateur :
 
 ## 🧠 Auteurs
 
-Projet développé dans le cadre du module **Administration Systèmes - L2 S4 - CERI**  
-Par Haytham BERHILI
+Haytham BERHILI
 
