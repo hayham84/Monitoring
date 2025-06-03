@@ -1,10 +1,10 @@
 from flask import Flask, render_template
 import sys
 
-sys.path.append("/home/admin/AMS/partie3")
+sys.path.append("/home/admin/AMS/Envoiemail_detectCrise_Graphe")
 from visualisation2 import generate_graph
 
-sys.path.append("/home/admin/AMS/partie2")
+sys.path.append("/home/admin/AMS/infoSysteme_infoCERT_data")
 from systeme import system
 
 page = Flask(__name__)  # Flask va chercher les templates dans ./templates par défaut
