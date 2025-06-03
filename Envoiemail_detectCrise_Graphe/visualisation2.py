@@ -5,7 +5,7 @@ import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
 
-db = "../partie2/database.db"
+db = "../infoSysteme_infoCERT_data/database.db"
 
 
 def argument(filename):
