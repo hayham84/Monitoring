@@ -7,7 +7,7 @@ import time
 from datetime import datetime, timedelta, UTC
 
 
-DB_FILE = "/home/admin/AMS/partie2/database.db"
+DB_FILE = "/home/admin/AMS/infoSysteme_infoCERT_data/database.db"
 
 def creation_table():
     
