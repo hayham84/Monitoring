@@ -8,9 +8,9 @@ from data import insertion_info_systeme
 import os
 import subprocess
 
-cpu = "/home/admin/AMS/partie1/sonde_cpu.py"
-ram = "/home/admin/AMS/partie1/sonde_ram.sh"
-disk = "/home/admin/AMS/partie1/sonde_disque.py"
+cpu = "/home/admin/AMS/sondes/sonde_cpu.py"
+ram = "/home/admin/AMS/sondes/sonde_ram.sh"
+disk = "/home/admin/AMS/sondes/sonde_disque.py"
 
 
 def system():
